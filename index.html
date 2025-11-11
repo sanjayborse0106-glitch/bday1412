@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Romantic Album</title>
+    <style>
+        /* Define a soft pink color palette and the overall style */
+        :root {
+            --pink-light: #FFB6C1; /* Very light pink for background */
+            --pink-medium: #da617d; /* Medium pink for accents */
+            --pink-dark: #e84a73; /* Darker pink for text and hearts */
+            --font-family: 'Georgia', serif;
+        }
+
+        body {
+            background-color: var(--pink-light);
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* --- Header Styling --- */
+        .album-header {
+            padding: 30px 0;
+        }
+
+        h1 {
+            color: var(--pink-dark);
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--pink-medium);
+            font-size: 1.2em;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        /* --- Album Grid and Photo Card Styling --- */
+        .photo-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding-top: 20px;
+        }
+
+        .photo-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .photo-card:hover {
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 4px solid var(--pink-medium);
+        }
+
+        .photo-caption {
+            color: #555;
+            font-style: italic;
+            margin-top: 10px;
+            padding: 0 5px;
+        }
+
+        /* --- Heart Decorative Element --- */
+        .heart-stamp {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            color: var(--pink-dark);
+            font-size: 2em;
+            transform: rotate(15deg);
+            opacity: 0.8;
+            pointer-events: none; /* Allows clicks to go through */
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            .photo-card {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="album-header">
+        <h1> Our Love Story ❤🫂</h1>
+        <h2>Collection Of Our Most Cherished Moments Together</h2>
+    </header>
+
+    <div class="photo-grid">
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.09.01_4036d07b.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> March 22nd.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-11-09 at 16.08.47_26ea5c15.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> April 26th.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.15.22_6d47531b.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> April 29th.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.07.39_c606e1e7.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 2nd.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-23 at 23.40.07_790d017a.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 5th.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.05.46_6c6376f9.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 9th.</p>
+        </div>
+
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.41_2b9faf58.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 15th.</p>
+        </div>
+
+        
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.56_743e91b5.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 16th.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.55_be2176a1.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 17th.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.56_c4f58722.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 22nd.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.50_e0e55b16.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 23rd.</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.51_07da3124.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption"> May 23rd.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-23 at 23.40.06_1331467f.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">May 27th</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-23 at 23.40.06_2c6695c3.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">May 30th</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.56_78ac875f.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">June 3rd</p>
+        </div>
+
+                        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.57_2a30876d.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">June 12th</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-23 at 23.40.06_3c408b22.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">June 21st</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.22.15_0c916794.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 5th</p>
+        </div>
+
+                        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.22.40_0d9d53e8.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 9th</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.57_5543b58b.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 14th</p>
+        </div>
+
+                    <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-25 at 10.00.31_1600b0d7.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 19th</p>
+        </div>
+
+                            <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-28 at 11.05.11_6e8238e0.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 25th</p>
+        </div>
+
+                                    <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-28 at 11.05.19_8051ad71.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">July 28th</p>
+        </div>
+
+                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.58_5ddfd2c9.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">August 14th</p>
+        </div>
+
+                        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-24 at 10.03.58_537eec0b.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">August 22nd</p>
+        </div>
+
+                        <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-31 at 19.36.05_7079d336.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">September 3rd</p>
+        </div>
+
+                                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-31 at 19.42.28_ad365ba1.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">September 5th</p>
+        </div>        
+
+                                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-31 at 19.46.01_5d54c2a7.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">September 20th</p>
+        </div>        
+
+                                <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-31 at 19.49.04_3cc0ef5f.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">October 3rd</p>
+        </div>        
+
+                                    <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-10-31 at 19.50.34_d665999f.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">October 6th</p>
+        </div>        
+        
+                                    <div class="photo-card">
+            <img src="C:\Users\KRISHNA PATIL\OneDrive\Desktop\Bae's Birthday\images\WhatsApp Image 2025-11-07 at 18.28.08_d458e606.jpg">
+            <div class="heart-stamp">❤</div>
+            <p class="photo-caption">November 6th</p>
+        </div>        
+        </div>
+
+</body>
+</html>
